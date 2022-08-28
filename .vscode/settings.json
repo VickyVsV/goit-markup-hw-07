@@ -1,0 +1,13 @@
+{
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "prettier.printWidth": 100,
+  "indentRainbow.updateDelay": 100,
+  "html.format.wrapLineLength": 80,
+  "html.format.enable": true,
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "prettier.tabWidth": 2,
+  "indentRainbow.lightIndicatorStyleLineWidth": 1,
+  "prettier.useTabs": false
+}
