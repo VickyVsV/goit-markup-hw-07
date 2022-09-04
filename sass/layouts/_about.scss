@@ -2,12 +2,12 @@
   padding-top: 0;
 }
 
-.about-list {
+.about__list {
   display: flex;
   column-gap: 30px; /* задает отступы между li списком, кром последнего/первого. Аналог child */
 }
 
-.about-title {
+.about__title {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
@@ -17,11 +17,11 @@
   margin-bottom: 50px;
 }
 
-.about-item {
+.about__item {
   position: relative;
 }
 
-.about-text {
+.about__text {
   font-weight: 700;
   font-size: 14px;
   line-height: 16px;
