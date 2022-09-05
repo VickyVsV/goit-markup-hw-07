@@ -10,12 +10,12 @@
   align-items: center;
 }
 
-.header-nav {
+.header-navigation {
   display: flex;
   align-items: center;
 }
 
-.header-nav__list {
+.header-nav {
   display: flex;
 }
 
@@ -46,7 +46,7 @@
   }
 }
 
-.header-contacts__list {
+.header-contacts {
   margin-left: auto;
   display: flex;
   justify-content: flex-end;
@@ -68,7 +68,7 @@
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--main-text-color);
-  transition: color var(--duration) var(--transition-cubic);
+  transition: color var(--duration) var(--timing-function-cubic);
   padding-bottom: 32px;
   padding-top: 32px;
 

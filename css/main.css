@@ -112,7 +112,7 @@ img {
   color: #ffffff;
 }
 
-.soc__list {
+.soc {
   display: flex;
   gap: 10px;
 }
@@ -312,12 +312,12 @@ img {
   align-items: center;
 }
 
-.header-nav {
+.header-navigation {
   display: flex;
   align-items: center;
 }
 
-.header-nav__list {
+.header-nav {
   display: flex;
 }
 
@@ -345,7 +345,7 @@ img {
   color: var(--main-hover-color);
 }
 
-.header-contacts__list {
+.header-contacts {
   margin-left: auto;
   display: flex;
   justify-content: flex-end;
@@ -366,7 +366,7 @@ img {
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--main-text-color);
-  transition: color var(--duration) var(--transition-cubic);
+  transition: color var(--duration) var(--timing-function-cubic);
   padding-bottom: 32px;
   padding-top: 32px;
 }
@@ -441,7 +441,7 @@ img {
   background-color: #188ce8;
 }
 
-.quality__list {
+.quality {
   margin-left: auto;
   margin-right: auto;
   display: flex;
@@ -528,7 +528,7 @@ img {
   background-color: #f5f4fa;
 }
 
-.team-card__list {
+.team-card {
   display: flex;
   column-gap: 30px;
 }
@@ -626,14 +626,14 @@ img {
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
-.portfolio__btn-list {
+.portfolio__button {
   margin-bottom: 50px;
   display: flex;
   justify-content: center;
   column-gap: 8px;
 }
 
-.card__list {
+.card {
   display: flex;
   flex-wrap: wrap;
   column-gap: 30px;
